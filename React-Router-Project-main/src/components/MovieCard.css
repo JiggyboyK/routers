@@ -1,0 +1,44 @@
+.MovieCard{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.movie-title{
+    cursor: pointer;
+    font-size: 27px;
+    font-weight: bolder;
+    color: black;
+}
+
+.mapped{
+    box-sizing: border-box;
+    border: none;
+    padding: 20px;
+    margin: 20px 0;
+    width: 300px;
+    background-color: ;
+    box-shadow: 2px 2px 6px 2px black;
+}
+.mapped p{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.contentList{
+    font-size: 15px;
+}
+.contentList span{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.movie-image img{
+    max-width: 150px;
+    min-height: 200px; 
+    max-height: 200px;
+    margin: 0 auto;
+}
+.movie-image{
+    display: flex;
+}

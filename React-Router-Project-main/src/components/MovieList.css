@@ -1,0 +1,16 @@
+h4{
+    text-decoration:  underline solid black;
+}
+.titles{
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.titles span{
+    color: black;
+}
+.MovList{
+    margin-top: 30px;
+    width: 300px;
+    padding: 10px;
+}

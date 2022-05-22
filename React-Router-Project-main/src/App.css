@@ -1,0 +1,33 @@
+.App .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    background: black;
+    font-weight: bolder;
+}
+
+.add-movie-form label{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-bottom: 5px;
+}
+.add-movie-form input{
+    min-width: 280px;
+    padding: 2px;
+}
+
+button{
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bolder;
+    border: none;
+    width: 400px;
+}
+button:hover{    
+    background-color: royalblue;
+    color: white;
+    transition: 0.3s;
+}
